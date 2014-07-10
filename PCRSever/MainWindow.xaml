@@ -1,0 +1,51 @@
+﻿<Controls:MetroWindow x:Class="PCRSever.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Custom="http://www.galasoft.ch/mvvmlight" 
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" 
+        Icon="Image/PCR1.png" ShowIconOnTitleBar="true"   WindowStartupLocation="CenterScreen"
+        Title="电脑端" Height="400" Width="600">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colours.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.AnimatedSingleRowTabControl.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro.Resources;component/Icons.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Purple.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/FlatSlider.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <Style x:Key="DescriptionHeaderStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="22" />
+                <Setter Property="HorizontalAlignment" Value="Center" />
+            </Style>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Controls:MetroWindow.GlowBrush>
+        <SolidColorBrush Color="{DynamicResource AccentColor}" />
+    </Controls:MetroWindow.GlowBrush>
+
+    <Controls:MetroContentControl>
+        <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+            <Button  Style="{StaticResource SquareButtonStyle}" Command="{Binding StartCommand}" Margin="-200,0,0,0" Content="启动监听" Height="24" Width="80"/>
+            <Button  Style="{StaticResource SquareButtonStyle}" Command="{Binding StartControlCommand}" Content="启动控制监听" Margin="200,0,0,0" Height="24" Width="80"/>
+            <Label ToolTip="秘钥" Content="{Binding Key}" Style="{StaticResource DescriptionHeaderStyle}" HorizontalAlignment="Right"/>
+            <TextBox AcceptsReturn="True"  Name="tb" Text="{Binding ShowMsg}" VerticalScrollBarVisibility="Auto" TextWrapping="Wrap" Grid.Row="1">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="PreviewKeyDown">
+                        <Custom:EventToCommand PassEventArgsToCommand="True" Command="{Binding TextBoxKeyDown}"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </TextBox>
+            <Button Visibility="Collapsed"  Command="{Binding CameraStartCommand}" Content="打开摄像头" Height="24" Width="80" Margin="92,12,420,14"/>
+    </Grid>
+    </Controls:MetroContentControl>
+</Controls:MetroWindow>

@@ -1,0 +1,48 @@
+d:\Documents\Visual Studio 2012\Projects\PCRProject\PCRSever\bin\Debug\PCRSever.exe.config
+d:\Documents\Visual Studio 2012\Projects\PCRProject\PCRSever\bin\Debug\PCRSever.exe
+d:\Documents\Visual Studio 2012\Projects\PCRProject\PCRSever\bin\Debug\PCRSever.pdb
+d:\Documents\Visual Studio 2012\Projects\PCRProject\PCRSever\bin\Debug\GalaSoft.MvvmLight.Extras.WPF4.dll
+d:\Documents\Visual Studio 2012\Projects\PCRProject\PCRSever\bin\Debug\GalaSoft.MvvmLight.WPF4.dll
+d:\Documents\Visual Studio 2012\Projects\PCRProject\PCRSever\bin\Debug\MahApps.Metro.dll
+d:\Documents\Visual Studio 2012\Projects\PCRProject\PCRSever\bin\Debug\MahApps.Metro.Resources.dll
+d:\Documents\Visual Studio 2012\Projects\PCRProject\PCRSever\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+d:\Documents\Visual Studio 2012\Projects\PCRProject\PCRSever\bin\Debug\System.Windows.Interactivity.dll
+d:\Documents\Visual Studio 2012\Projects\PCRProject\PCRSever\bin\Debug\GalaSoft.MvvmLight.Extras.WPF4.xml
+d:\Documents\Visual Studio 2012\Projects\PCRProject\PCRSever\bin\Debug\GalaSoft.MvvmLight.WPF4.xml
+d:\Documents\Visual Studio 2012\Projects\PCRProject\PCRSever\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+d:\Documents\Visual Studio 2012\Projects\PCRProject\PCRSever\obj\Debug\PCRSever.csprojResolveAssemblyReference.cache
+d:\Documents\Visual Studio 2012\Projects\PCRProject\PCRSever\obj\Debug\MainWindow.baml
+d:\Documents\Visual Studio 2012\Projects\PCRProject\PCRSever\obj\Debug\MainWindow.g.cs
+d:\Documents\Visual Studio 2012\Projects\PCRProject\PCRSever\obj\Debug\App.g.cs
+d:\Documents\Visual Studio 2012\Projects\PCRProject\PCRSever\obj\Debug\PCRSever_MarkupCompile.cache
+d:\Documents\Visual Studio 2012\Projects\PCRProject\PCRSever\obj\Debug\PCRSever.g.resources
+d:\Documents\Visual Studio 2012\Projects\PCRProject\PCRSever\obj\Debug\PCRSever.Properties.Resources.resources
+d:\Documents\Visual Studio 2012\Projects\PCRProject\PCRSever\obj\Debug\PCRSever.csproj.GenerateResource.Cache
+d:\Documents\Visual Studio 2012\Projects\PCRProject\PCRSever\obj\Debug\PCRSever.exe
+d:\Documents\Visual Studio 2012\Projects\PCRProject\PCRSever\obj\Debug\PCRSever.pdb
+D:\Documents\Visual Studio 2012\Projects\PCRProject\PCRSever\obj\Debug\View\SelectIpView.baml
+D:\Documents\Visual Studio 2012\Projects\PCRProject\PCRSever\obj\Debug\View\SelectIpView.g.cs
+D:\Documents\Visual Studio 2012\Projects\PCRProject\PCRSever\bin\Debug\DirectShowLib-2005.dll
+D:\Documents\Visual Studio 2012\Projects\PCRProject\PCRSever\obj\Debug\View\CameraView.baml
+D:\Documents\Visual Studio 2012\Projects\PCRProject\PCRSever\obj\Debug\View\CameraView.g.cs
+D:\MyDocuments\GitHub\PCRProject\PCRSever\bin\Debug\PCRSever.exe.config
+D:\MyDocuments\GitHub\PCRProject\PCRSever\obj\Debug\PCRSever.exe
+D:\MyDocuments\GitHub\PCRProject\PCRSever\obj\Debug\PCRSever.pdb
+D:\MyDocuments\GitHub\PCRProject\PCRSever\bin\Debug\PCRSever.exe
+D:\MyDocuments\GitHub\PCRProject\PCRSever\bin\Debug\PCRSever.pdb
+D:\MyDocuments\GitHub\PCRProject\PCRSever\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\MyDocuments\GitHub\PCRProject\PCRSever\bin\Debug\GalaSoft.MvvmLight.Extras.WPF4.xml
+D:\MyDocuments\GitHub\PCRProject\PCRSever\bin\Debug\GalaSoft.MvvmLight.WPF4.xml
+D:\MyDocuments\GitHub\PCRProject\PCRSever\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\MyDocuments\GitHub\PCRProject\PCRSever\obj\Debug\PCRSever.csprojResolveAssemblyReference.cache
+D:\MyDocuments\GitHub\PCRProject\PCRSever\obj\Debug\MainWindow.baml
+D:\MyDocuments\GitHub\PCRProject\PCRSever\obj\Debug\View\CameraView.baml
+D:\MyDocuments\GitHub\PCRProject\PCRSever\obj\Debug\View\SelectIpView.baml
+D:\MyDocuments\GitHub\PCRProject\PCRSever\obj\Debug\MainWindow.g.cs
+D:\MyDocuments\GitHub\PCRProject\PCRSever\obj\Debug\View\CameraView.g.cs
+D:\MyDocuments\GitHub\PCRProject\PCRSever\obj\Debug\View\SelectIpView.g.cs
+D:\MyDocuments\GitHub\PCRProject\PCRSever\obj\Debug\App.g.cs
+D:\MyDocuments\GitHub\PCRProject\PCRSever\obj\Debug\PCRSever_MarkupCompile.cache
+D:\MyDocuments\GitHub\PCRProject\PCRSever\obj\Debug\PCRSever.g.resources
+D:\MyDocuments\GitHub\PCRProject\PCRSever\obj\Debug\PCRSever.Properties.Resources.resources
+D:\MyDocuments\GitHub\PCRProject\PCRSever\obj\Debug\PCRSever.csproj.GenerateResource.Cache
